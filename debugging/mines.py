@@ -68,7 +68,7 @@ class Minesweeper:
                 result = self.reveal(x, y)
                 if result == 'win':
                     self.print_board(reveal=True)
-                    print("Congratulations! You won!")
+                    print("Congratulations! You've won the game!")
                     break
                 elif not result:
                     self.print_board(reveal=True)
